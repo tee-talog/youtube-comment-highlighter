@@ -6,12 +6,14 @@ YouTube (https://www.youtube.com) と YouTube Gaming (https://gaming.youtube.com
 ユーザー名指定の場合とモデレーターの場合で別の色を指定できます。
 
 ## インストール
-TBA
+https://chrome.google.com/webstore/detail/jmkmnnaiifcofpiombhfhapdelmakmnj/publish-accepted?authuser=2&hl=ja
 
 ## 設定内容
 拡張機能のアイコンをクリックすると、設定画面が出ます。
 
 設定できる項目は 3 種類です。
+
+保存ボタンを押すことで反映されます。
 
 ### ユーザー色
 該当するチャットの背景色を指定します。
@@ -63,7 +65,7 @@ GitHub アカウントがない方は Twitter でも構いません。
 テンプレートが設定されているので、そちらに沿って記入してください。
 割とカジュアルに書いていただいて構いません。
 
-TBA Issue へのリンク
+https://github.com/tee-talog/youtube-chat-highlighter/issues
 
 開発者の方は 具体的な Issue や PR は大歓迎です。
 ドキュメントやコメントの誤字脱字といったレベルでも報告・修正していただけると助かります。
@@ -73,6 +75,8 @@ TBA Issue へのリンク
 * モデレーターでないユーザーのチャットがモデレーター色になることがあります。
     * モデレーターのチャットの後に色付けがされないと、一定量のチャットが流れた後に色付けされます。
 * 一部スーパーチャットにユーザー色が反映されることがあります。
+* 拡張機能一覧画面でエラーが発生しています。
+    * 動作に影響はありません。
 
 ## ソースコードライセンス
 MIT
