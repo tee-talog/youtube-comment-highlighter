@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "parcel watch src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
     "start": "parcel src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
-    "build": "parcel build --no-source-maps -d youtube-comment-highlighter src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json"
+    "build": "parcel build --no-source-maps -d youtube-chat-highlighter src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json"
   },
   "keywords": [
     "YouTube"

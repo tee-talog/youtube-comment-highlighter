@@ -1,0 +1,38 @@
+{
+  "name": "Youtube Chat Highlighter",
+  "description": "Highlight YouTube chats that is filtered with user config",
+  "version": "0.0.1",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://www.youtube.com/watch*",
+        "https://www.youtube.com/channel/*/live",
+        "https://www.youtube.com/live_chat*"
+      ],
+      "js": ["js/www.js"]
+    },
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://gaming.youtube.com/watch*",
+        "https://gaming.youtube.com/channel/*/live",
+        "https://gaming.youtube.com/live_chat*"
+      ],
+      "js": ["js/gaming.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/icon-34.png"
+  },
+  "icons": {
+    "128": "img/icon-128.png"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
