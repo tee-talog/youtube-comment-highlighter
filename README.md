@@ -1,7 +1,7 @@
 # YouTube Chat Highlighter
 YouTube の指定したユーザー名とモデレーター（スパナ付きユーザー）の動画横に流れるチャット背景を色付けして表示する Chrome 拡張機能です。
 
-YouTube (www.youtube.com) と YouTube Gaming (gaming.youtube.com) に対応しています。
+YouTube (https://www.youtube.com) と YouTube Gaming (https://gaming.youtube.com) に対応しています。
 
 ユーザー名指定の場合とモデレーターの場合で別の色を指定できます。
 
