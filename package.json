@@ -1,0 +1,25 @@
+{
+  "name": "youtube-chat-highlighter",
+  "version": "0.0.0",
+  "description": "Highlight YouTube chats that is filtered with user config",
+  "main": "dist/js/www.js",
+  "scripts": {
+    "watch": "parcel watch src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
+    "start": "parcel src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
+    "build": "parcel build --no-source-maps src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json"
+  },
+  "keywords": [
+    "YouTube"
+  ],
+  "author": "tee-talog",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.11.0",
+    "parcel-plugin-json": "^1.0.1"
+  },
+  "dependencies": {
+    "mustard-ui": "0.0.8"
+  }
+}

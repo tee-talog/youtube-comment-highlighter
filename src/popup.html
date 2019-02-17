@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="./css/popup.css">
+</head>
+<body>
+	<div class="wrapper">
+		<section class="section">
+			<h1 class="section-title">ユーザー色</h1>
+			<div class="color-wrapper">
+				<div>
+					<label for="color-user-youtube" class="color-label">YouTube</label>
+					<input type="color" id="color-user-youtube" class="color color-user-youtube">
+				</div>
+				<div>
+					<label for="color-user-gaming" class="color-label">Gaming</label>
+					<input type="color" id="color-user-gaming" class="color color-user-gaming">
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<h1 class="section-title">ユーザー名フィルター</h1>
+			<div>
+				<textarea id="usernames" class="usernames"></textarea>
+			</div>
+			<div class="regexp-wrapper">
+				<input type="checkbox" id="usernames-regexp" class="regexp-checkbox">
+				<label for="usernames-regexp">正規表現</label>
+			</div>
+		</section>
+
+		<hr class="separator">
+
+		<section class="section">
+			<h1 class="section-title">モデレーター色</h1>
+			<div class="color-wrapper">
+				<div>
+					<label for="color-moderator-youtube" class="color-label">YouTube</labell>
+					<input type="color" id="color-moderator-youtube" class="color color-moderator-youtube">
+				</div>
+				<div>
+					<label for="color-moderator-gaming" class="color-label">Gaming</label>
+					<input type="color" id="color-moderator-gaming" class="color color-moderator-gaming">
+				</div>
+			</div>
+		</section>
+
+		<hr class="separator">
+
+		<section class="section button-wrapper">
+			<button id="save-button" class="button-primary">保存</button>
+		</section>
+
+	</div>
+	<script src="./js/popup.js"></script>
+</body>
+</html>
+
