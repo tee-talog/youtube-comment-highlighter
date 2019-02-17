@@ -23,4 +23,5 @@ pids
 !.gitkeep
 /dist/
 .cache/
-
+/youtube-comment-highlighter/
+/youtube-comment-highlighter.zip
