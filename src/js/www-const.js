@@ -13,6 +13,10 @@ export const configKeys = {
 }
 
 export const chatListFunc = () => {
+	if (location.pathname.includes("live_chat")) {
+		return document.querySelector("#contents #chat #contents #items")
+	}
+
 	const chatframe = document.querySelector("#chatframe")
 	if (!chatframe) {
 		return null
