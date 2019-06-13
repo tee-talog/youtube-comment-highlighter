@@ -1,8 +1,9 @@
 import state from "./state"
-import { selectors, configKeys, chatListFunc } from "./gaming-const"
+import { configKeys, chatListFunc, isModerator, isUsername } from "./gaming-const"
 import initialize from "./modules/initialize"
+import defaultValues from "./default-values"
 
 state.chatListFunc = chatListFunc
+state.defaultColor = defaultValues.gaming
 
-initialize(selectors, configKeys)
-
+initialize(configKeys, isModerator, isUsername)

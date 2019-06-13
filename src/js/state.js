@@ -1,5 +1,3 @@
-// メモ：一部を除いて、state じゃなくて pageConfig とか userSettings では？
-// "state" はページを開いてる間に変更される値というイメージ
 class State {
 	constructor() {
 		// default value
@@ -11,12 +9,15 @@ class State {
 		this._chatListFunc = () => []
 		// initial value
 		this._loaded = false
+		// when not set
+		this._defaultUsernameBackgroundColor = ""
+		this._defaultModeratorBackgroundColor = ""
 	}
 	set fetchedConfig(values) {
-		this._usernameBackgroundColor = values.usernameBackgroundColor || this._usernameBackgroundColor
+		this._usernameBackgroundColor = values.usernameBackgroundColor || this._usernameBackgroundColor || this._defaultUsernameBackgroundColor
 		this._usernames = values.usernames || this._usernames
 		this._usernamesAreRegExp = values.usernamesAreRegExp || this._usernamesAreRegExp
-		this._moderatorBackgroundColor = values.moderatorBackgroundColor || this._moderatorBackgroundColor
+		this._moderatorBackgroundColor = values.moderatorBackgroundColor || this._moderatorBackgroundColor || this._defaultModeratorBackgroundColor
 	}
 	get colors() {
 		return {
@@ -52,7 +53,11 @@ class State {
 		}
 		this._chatListFunc = value
 	}
+
+	set defaultColor(colors) {
+		this._defaultUsernameBackgroundColor = colors.usernameBackgroundColor
+		this._defaultModeratorBackgroundColor = colors.moderatorBackgroundColor
+	}
 }
 
 export default new State()
-

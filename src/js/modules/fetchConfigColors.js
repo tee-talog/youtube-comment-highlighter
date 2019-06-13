@@ -29,4 +29,3 @@ const fetchConfigColors = (keys) => new Promise((ok, ng) => {
 })
 
 export default fetchConfigColors
-
