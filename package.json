@@ -1,6 +1,6 @@
 {
   "name": "youtube-chat-highlighter",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Highlight YouTube chats that is filtered with user config",
   "main": "dist/js/www.js",
   "scripts": {
