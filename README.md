@@ -1,8 +1,8 @@
-# YouTube Chat Highlighter
+# Chat Highlighter for YouTube™
 
-YouTube の指定したユーザー名とモデレーター（スパナ付きユーザー）の動画横に流れるチャット背景を色付けして表示する Chrome 拡張機能です。
+YouTube™ の指定したユーザー名とモデレーター（スパナ付きユーザー）の動画横に流れるチャット背景を色付けして表示する Google Chrome™ 拡張機能です。
 
-YouTube (https://www.youtube.com) と YouTube Gaming (https://gaming.youtube.com) に対応しています。
+YouTube™ (https://www.youtube.com) と YouTube™ Gaming (https://gaming.youtube.com) に対応しています。
 
 ユーザー名指定の場合とモデレーターの場合で別の色を指定できます。
 
@@ -22,7 +22,7 @@ https://chrome.google.com/webstore/detail/jmkmnnaiifcofpiombhfhapdelmakmnj/publi
 
 該当するチャットの背景色を指定します。
 
-YouTube と YouTube Gaming は文字色が違うため、別の色を指定できます。
+YouTube™ と YouTube™ Gaming は文字色が違うため、別の色を指定できます。
 
 ### ユーザー名フィルター
 
@@ -63,7 +63,7 @@ user-2
 
 モデレーターのチャットの背景色を指定します。
 
-YouTube と YouTube Gaming は文字色が違うため、別の色を指定できます。
+YouTube™ と YouTube™ Gaming は文字色が違うため、別の色を指定できます。
 
 ## 不具合報告や機能拡張依頼など
 
@@ -73,7 +73,7 @@ GitHub アカウントがない方は Twitter でも構いません。
 テンプレートが設定されているので、そちらに沿って記入してください。
 割とカジュアルに書いていただいて構いません。
 
-https://github.com/tee-talog/youtube-chat-highlighter/issues
+https://github.com/tee-talog/chat-highlighter-for-youtube/issues
 
 開発者の方は 具体的な Issue や PR は大歓迎です。
 ドキュメントやコメントの誤字脱字といったレベルでも報告・修正していただけると助かります。
@@ -94,3 +94,7 @@ MIT
 ## 免責事項
 
 本プログラムによって生じた損害等について、一切の責任を負いかねますのでご了承ください。
+
+## 帰属
+
+YouTube, Google Chrome は Google Inc. の商標です。この商標の使用には Google の許可が必要です。
