@@ -1,15 +1,15 @@
 {
-  "name": "youtube-chat-highlighter",
+  "name": "chat-highlighter-for-youtube",
   "version": "1.2.0",
-  "description": "Highlight YouTube chats that is filtered with user config",
+  "description": "Highlight YouTube™ chats that is filtered with user config",
   "main": "dist/js/www.js",
   "scripts": {
     "watch": "parcel watch src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
     "start": "parcel src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json",
-    "build": "parcel build --no-source-maps -d youtube-chat-highlighter src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json"
+    "build": "parcel build --no-source-maps -d chat-highlighter-for-youtube src/popup.html src/img/icon-34.png src/img/icon-128.png src/js/www.js src/js/gaming.js src/manifest.json"
   },
   "keywords": [
-    "YouTube"
+    "YouTube™"
   ],
   "author": "tee-talog",
   "license": "MIT",
