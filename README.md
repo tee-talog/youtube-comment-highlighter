@@ -2,8 +2,6 @@
 
 YouTube™ の指定したユーザー名とモデレーター（スパナ付きユーザー）の動画横に流れるチャット背景を色付けして表示する Google Chrome™ 拡張機能です。
 
-YouTube™ (https://www.youtube.com) と YouTube™ Gaming (https://gaming.youtube.com) に対応しています。
-
 ユーザー名指定の場合とモデレーターの場合で別の色を指定できます。
 
 ## インストール
@@ -21,8 +19,6 @@ https://chrome.google.com/webstore/detail/jmkmnnaiifcofpiombhfhapdelmakmnj/publi
 ### ユーザー色
 
 該当するチャットの背景色を指定します。
-
-YouTube™ と YouTube™ Gaming は文字色が違うため、別の色を指定できます。
 
 ### ユーザー名フィルター
 
@@ -62,8 +58,6 @@ user-2
 ### モデレーター色
 
 モデレーターのチャットの背景色を指定します。
-
-YouTube™ と YouTube™ Gaming は文字色が違うため、別の色を指定できます。
 
 ## 不具合報告や機能拡張依頼など
 

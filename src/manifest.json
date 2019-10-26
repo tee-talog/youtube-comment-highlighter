@@ -12,15 +12,6 @@
         "https://www.youtube.com/live_chat*"
       ],
       "js": ["js/www.js"]
-    },
-    {
-      "run_at": "document_end",
-      "matches": [
-        "https://gaming.youtube.com/watch*",
-        "https://gaming.youtube.com/channel/*/live",
-        "https://gaming.youtube.com/live_chat*"
-      ],
-      "js": ["js/gaming.js"]
     }
   ],
   "browser_action": {
