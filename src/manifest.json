@@ -2,7 +2,7 @@
   "name": "Chat Highlighter for YouTube™",
   "description": "Highlight YouTube™ chats that is filtered with user config",
   "version": "1.3.0",
-  "permissions": ["activeTab", "storage"],
+  "permissions": ["tabs", "storage"],
   "content_scripts": [
     {
       "run_at": "document_end",
