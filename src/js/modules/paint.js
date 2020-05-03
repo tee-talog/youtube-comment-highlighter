@@ -1,9 +1,9 @@
 import state from "../state"
 
 // 色を特定する
-const getPaintColor = (element, isModerator, isUsername) => {
+const getPaintColor = (element, isUsername) => {
 	// モデレーター
-	if (isModerator(element)) {
+	if (element.getAttribute("author-type") === "moderator") {
 		return state.colors.moderator
 	}
 
@@ -17,8 +17,8 @@ const getPaintColor = (element, isModerator, isUsername) => {
 
 // チャット欄を色付けする
 // チャットエレメント、その URL でつけたい色、名前に正規表現を適用するか
-const paint = (elements, isModerator, isUsername) => setTimeout(elements.forEach((e) => {
-	e.style.backgroundColor = getPaintColor(e, isModerator, isUsername)
+const paint = (elements, isUsername) => setTimeout(elements.forEach((e) => {
+	e.style.backgroundColor = getPaintColor(e, isUsername)
 }), 10)
 
 export default paint

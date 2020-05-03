@@ -1,7 +1,5 @@
 import { configKeys as commonConfigKeys } from "./common-const"
 
-export const isModerator = (element)  => element.getAttribute("author-type") === "moderator"
-
 export const isUsername = (element, state) => {
 	const elm = element.querySelector("#author-name")
 	if (!elm) {

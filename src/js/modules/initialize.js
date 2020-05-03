@@ -5,7 +5,7 @@ import addConfigChangeListener from "./configListener"
 import fetchConfigColors from "./fetchConfigColors"
 
 // ページアクセス時：チャット欄がロードされるまで待って、監視を開始する
-const initialize = (configKeys, isModerator, isUsername) => {
+const initialize = (configKeys, isUsername) => {
 	const initLoadHandler = setInterval(() => {
 		const chatList = state.chatListFunc()
 		if (!chatList) {
@@ -21,15 +21,15 @@ const initialize = (configKeys, isModerator, isUsername) => {
 			const observer = new MutationObserver((records) => {
 				// 更新されたチャットに対して色付け
 				const chats = records.flatMap((e) => [...e.addedNodes])
-				paint(chats, isModerator, isUsername)
+				paint(chats, isUsername)
 			})
 			observer.observe(chatList, { childList: true })
 
 			// 設定変更時にチャット欄をすべて再読み込みする
-			addConfigChangeListener(configKeys, () => paintAllChats(isModerator, isUsername))
+			addConfigChangeListener(configKeys, () => paintAllChats(isUsername))
 
 			// アクセス時に色付け
-			paintAllChats(isModerator, isUsername)
+			paintAllChats(isUsername)
 		})
 
 		// ロード待ちを解除
