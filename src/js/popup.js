@@ -1,7 +1,6 @@
 import "../css/popup.css";
 
 import { configKeys as wwwConfigKeys } from "./www-const";
-import { configKeys as commonConfigKeys } from "./common-const";
 import defaultValues from "./default-values";
 
 const init = () => {
